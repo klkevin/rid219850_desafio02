@@ -1,0 +1,359 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.all-divs {
+    margin: 0;
+}
+
+.container-cabeca {
+    background-color: #02A28F;
+    width: 100%;
+}
+
+#cabeca {
+    color: white;
+    padding: 13px 13px;  
+}
+
+#cabeça > h1 {
+    font-size: 2rem;
+    margin-left: 156px;
+
+}
+
+.container-main {
+  width: 100%;
+  max-width: 70.5rem;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 3.75rem;
+  margin-left: 9.75rem;
+  margin-right: 9.75rem;
+  gap: 2.5rem;
+}
+
+.main-content {
+  margin: 0;
+  display: flex;
+} 
+
+.banner-image {
+    width: 46.5rem;
+    height: auto;
+}
+
+#post-bar {
+    background-color: #02A28F;
+    color: #fff;
+    margin: 0;
+    border-radius: 0.62rem;
+}
+
+#post-bar > h3 {
+    width: 22.5rem;
+    padding: 0.62rem;
+    margin: 0;
+    margin-left: 1.5rem;
+}
+
+.sidebar-posts {
+  width: 22.5rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 1.25rem; 
+}
+
+.post-item {
+  width: auto;
+  display: flex;
+  gap: 0.75rem;
+  align-items:flex-start;
+  background-color: rgba(255,255,255,0.08);
+  padding: 0.75rem;
+  border-radius: 0.62rem;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+
+}
+
+.post-item > img {
+  width: 8.25rem;
+  height: 4.37rem;
+  object-fit: cover;
+  border-radius: 0.37rem;
+}
+
+.post-item > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.post-item p {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin: 0;
+  color: #000000;
+}
+
+.post-item span {
+  font-size: 0.75rem;
+  opacity: 0.8;
+  color: #616161;
+}
+
+.recent-posts {
+  margin:0;
+  margin-top: 2rem;
+  width: 46.5rem;
+  height: 55.18rem;
+  gap: 1.25rem;
+  margin-left: 9.75rem;
+  margin-right: 9.75rem;
+}
+
+.posts-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #02A28F;
+  color: white;
+  border-radius: 0.5rem;
+}
+
+.posts-header > h2 {
+  margin-left: 1.5rem;
+  font-size: 1.25rem;
+  font-style: bold;
+}
+
+.posts-header > h3 {
+  margin-left: 1.5rem;
+  font-size: 1.25rem;
+  font-style: bold;
+}
+
+.posts-header > a {
+  margin-right: 1.5rem;
+  text-decoration:underline;
+}
+
+.posts-grid {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(2, 2fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+
+.post-card {
+  background-color: #f6f6f6;
+  padding: 0px;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 22.5rem;
+  height: 24.75rem;
+  gap: 8px;
+  max-width: 22.5rem;
+  max-height: 24.75rem; 
+  flex: 1; 
+}
+
+.post-card img {
+  width: 22.5rem;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.post-card-text {
+  margin: 0.93rem 1rem 0.93rem 1rem;
+  display: grid;
+  text-align: left;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.post-card-text > h2 {
+  color:#02A28F;
+  margin: 0;
+  padding: 0;
+  font-size: 0.87rem;
+  width: 7.56rem;
+  height: 1.06rem;
+}
+
+.post-card-text > h4 {
+  font-size: 1.25rem;
+  margin: 0;
+  padding: 0;
+}
+
+#paragrafo-sombra {
+    margin: 0;
+    padding: 0;
+    font-size: 0.87rem;
+    height: 1.06rem;
+    color: #616161;
+}
+
+#paragrafo-sombra2 {
+    margin: 0;
+    padding: 0;
+    font-size: 0.87rem;
+    width: 6.75rem;
+    height: 1.06rem;
+    color: #616161;
+    justify-content: end;
+}
+
+#paragrafo-texto {
+    margin: 0;
+    padding: 0;
+    font-size: 0.87rem;
+    height: auto;
+}
+
+.site-footer {
+  margin-top: 4rem;
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #02A28F;
+  color: white;
+  font-size: 0.9rem;
+  margin-left: 0;
+}
+
+.site-footer > p {
+    padding: 0;
+    margin: 0;
+}
+
+.categorias {
+    width: 22.5rem;
+    margin: 0;
+    background-color: #02A28F;
+    color: #fff;
+    height: 3rem;
+    margin: 0;
+    border-radius: 0.62rem;
+    display: grid;
+}
+
+.categorias > h3 {
+  margin: 0.75rem 13.93rem 0.75rem 1.5rem;
+}
+
+.categorias > ul {
+  color: #616161;
+}
+
+.categorias > ul > li {
+  list-style:inside
+}
+
+@media (max-width: 320px) {
+  /* 1. Empilhar tudo em bloco e remover margens fixas */
+  .container-main {
+    display: block;
+    margin: 0;
+    padding: 1rem;
+    width: 100%;
+  }
+
+  /* 2. Cabeçalho */
+  .container-cabeca {
+    text-align: center;
+  }
+
+  /* 3. Banner */
+  .banner-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 1rem 0;
+  }
+
+  /* 4. Seção de posts populares */
+  #post-bar {
+    width: 100%;
+    text-align: center;
+    margin: 1rem 0;
+  }
+  .sidebar-posts {
+    display: block;
+    width: 100%;
+    margin: 0.5rem 0;
+    gap: 1rem;
+  }
+  .post-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .post-item > img {
+    width: 80%;
+    margin-bottom: 0.5rem;
+  }
+
+  /* 5. Recent posts – grid vira coluna única */
+  .recent-posts {
+    width: 100%;
+    margin: 1rem 0;
+  }
+  .posts-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    gap: 1rem;
+  }
+  .post-card {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .post-card img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* 6. Categorias como penúltimo elemento */
+  .categorias {
+    width: 100%;
+    margin: 1.5rem 0;
+    text-align: center;
+  }
+
+  /* 7. Footer centralizado */
+  .site-footer {
+    text-align: center;
+    padding: 1rem;
+  }
+}
+
+
+
+
+
+
